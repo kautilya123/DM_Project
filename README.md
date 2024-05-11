@@ -223,7 +223,8 @@ Cluster 4:
 ### Q5: How does a movie's genre influence the likelihood of winning Oscars in different categories (e.g., Cinematography, Directing, Film Editing, Music, Best Picture, Writing)?
 - **Approach**: Initially, I imported and processed two datasets: one containing Oscar awards information and another with movie genre data. Subsequently, I merged these datasets based on movie names to consolidate relevant information. Using the merged data, I engineered features by converting movie genres into dummy variables to represent their presence or absence. Following this, I created binary target variables for each Oscar category, denoting whether a movie won in that category or not. Employing logistic regression models, I trained and evaluated predictions for each Oscar category based on movie genres, utilizing classification reports and confusion matrices to assess model performance.
 - **Output**:
-  ![image](https://github.com/kautilya123/DM_Project/assets/114575117/982569ec-cb82-444b-904b-5a4d3fa33c3c)
+
+![image](https://github.com/kautilya123/DM_Project/assets/114575117/982569ec-cb82-444b-904b-5a4d3fa33c3c)
 
 - **Result**:
 Classification Report
