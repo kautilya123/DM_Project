@@ -10,16 +10,17 @@ This endeavour endeavours to unveil latent (rather, implicit) intricacies within
 4. How does network centrality differ between male and female actors over time, and does this disparity influence the types of roles or genres they are offered?
 5. How does a movie's genre influence the likelihood of winning Oscars in different categories (e.g., Cinematography, Directing, Film Editing, Music, Best Picture, Writing)?
 
-*Additional dataset used: The Oscars dataset (for question 5).*
+## Additional dataset used
+The Oscars dataset (for question 5)
 
 ## Data Preprocessing and Initial Analysis
 
-After importing the necessary libraries, we load three distinct datasets into pandas DataFrames in Python. The first dataset, 'movie.metadata.tsv', contains information about movies such as their Wikipedia and Freebase IDs, release date, box office revenue, runtime, languages, countries, and genres. The second dataset, 'character.metadata.tsv', provides details about characters including their Wikipedia and Freebase IDs, release date, names, actors' date of birth, gender, height, ethnicity, and age at the time of movie release. Finally, the third dataset, 'plot_summaries.txt', furnishes plot summaries indexed by their Wikipedia IDs. 
+After importing the necessary libraries, we load three distinct datasets into pandas DataFrames in Python. The first dataset, 'movie.metadata.tsv', contains information about movies such as their Movies and Freebase IDs, release date, box office revenue, runtime, languages, countries, and genres. The second dataset, 'character.metadata.tsv', provides details about characters including their Wikipedia and Freebase IDs, release date, names, actors' date of birth, gender, height, ethnicity, and age at the time of movie release. Finally, the third dataset, 'plot_summaries.txt', furnishes plot summaries indexed by their Movie IDs. 
 
 ### Datasets
 1. **Movie Metadata**: Contains information like Movie IDs, release date, box office revenue, languages, and genres.
 2. **Character Metadata**: Details about characters, including their Movie IDs, release date, names, actor attributes (DOB, gender, etc.).
-3. **Plot Summaries**: Plot summaries indexed by Wikipedia IDs.
+3. **Plot Summaries**: Plot summaries indexed by Movie IDs.
 
 Afterwards, I've run a series of commands like .info() and .describe() to get a feel of the dataset and how it looks like. Some example outputs:
 ![image](https://github.com/kautilya123/DM_Project/assets/114575117/60973062-b9fa-48c5-a1b7-caf3503b3749)
