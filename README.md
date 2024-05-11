@@ -29,6 +29,7 @@ Afterwards, I've run a series of commands like .info() and .describe() to get a 
 After this, I’ve run a series of commands to check the null values in the datasets and delete the rows with null values as part of the data cleaning:
 
 Before:
+
 ![image](https://github.com/kautilya123/DM_Project/assets/114575117/c1b89d0e-a0f0-4462-91da-b3680a1f4f08)
 
 After:
